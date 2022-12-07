@@ -1,24 +1,13 @@
 main{
-    background-color:#4a4d51;
-    width:80vw;
-    max-width:  1140px;
-    margin:20px auto;
-    padding: 25px 75px 25x 25px;
+    background-color:#023373;
+font-family:'Roboto','Arial Narrow', Arial, sans-serif;
 color: #F2F2F2;
-background-size: 700px
-margin-bottom: 20px;
-border: 3px solid 
 }
-
-
-
-
-
 
 header.primary {
     
     padding:20px;
-    background-ima;
+    background-image: url("dragon/assets/css/img/SpaceX-Wallpaper.jpeg");
     background-repeat:repeat;
     background-size:cover;
     display:flex;
@@ -52,22 +41,8 @@ header.primary nav{
   transition: .75s;
   }
 
-.container{
-  width: 80vw;
-  margin: 40px auto;
-  max-width: 900px;
+  blog{
 
-}
-
-  .container2 p{
-    background-color: #022340;
-    width: 80vw;
-    margin: 40px auto;
-    max-width: 900px
-  }
-
-  #content article.post{
-    
   }
 
 

@@ -1,3 +1,15 @@
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
 main{
     background-color:#4a4d51;
     width:80vw;
@@ -5,22 +17,18 @@ main{
     margin:20px auto;
     padding: 25px 75px 25x 25px;
 color: #F2F2F2;
-background-size: 700px
+background-size: 700px;
 margin-bottom: 20px;
 border: 3px solid 
 }
 
-
-
-
-
-
 header.primary {
     
     padding:20px;
-    background-ima;
-    background-repeat:repeat;
+    background-image: url("../img/SpaceX-Wallpaper.jpeg");
+    background-repeat:no-repeat;
     background-size:cover;
+    background-position: center;
     display:flex;
     justify-content:space-between;
     flex-direction: row;
@@ -66,8 +74,24 @@ header.primary nav{
     max-width: 900px
   }
 
-  #content article.post{
-    
+  #blog{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  #blog h2{
+    flex: 0 0 100%;
+  }
+
+  #blog article.post {
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    transition: 0.6s;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    background: #fff;
   }
 
 

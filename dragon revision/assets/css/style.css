@@ -1,15 +1,34 @@
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
 main{
-    background-color:#023373;
-font-family:'Roboto','Arial Narrow', Arial, sans-serif;
+    background-color:#4a4d51;
+    width:80vw;
+    max-width:  1140px;
+    margin:20px auto;
+    padding: 25px 75px 25x 25px;
 color: #F2F2F2;
+background-size: 700px;
+margin-bottom: 20px;
+border: 3px solid 
 }
 
 header.primary {
     
     padding:20px;
-    background-image: url("dragon/assets/css/img/SpaceX-Wallpaper.jpeg");
-    background-repeat:repeat;
+    background-image: url("../img/SpaceX-Wallpaper.jpeg");
+    background-repeat:no-repeat;
     background-size:cover;
+    background-position: center;
     display:flex;
     justify-content:space-between;
     flex-direction: row;
@@ -41,8 +60,60 @@ header.primary nav{
   transition: .75s;
   }
 
-  blog{
+.container{
+  width: 80vw;
+  margin: 40px auto;
+  max-width: 900px;
 
+}
+
+  .container2 p{
+    background-color: #022340;
+    width: 80vw;
+    margin: 40px auto;
+    max-width: 900px
+  }
+
+  #blog{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  #blog h2{
+    flex: 0 0 100%;
+  }
+
+  #blog article.post {
+    width: 30%;
+    box-shadow: 0 4px 8px #000D06;
+    padding: 10px;
+    transition: 0.6s;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    background: #fff;
+    color: #000D06;
   }
 
 
+  img{
+    max-width:100%;
+}
+
+.slick-autoplay-toggle-button,
+.slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
+.slick-dots li button .slick-dot-icon,
+.slick-dots li.slick-active button .slick-dot-icon {
+  color: white;
+}
+
+.slick-next:focus .slick-next-icon,
+.slick-next:focus .slick-prev-icon,
+.slick-prev:focus .slick-next-icon,
+.slick-prev:focus .slick-prev-icon,
+.slick-dots li button:focus .slick-dot-icon:before,
+.slick-dots li.slick-active button:focus .slick-dot-icon,
+.slick-autoplay-toggle-button:focus 
+{
+    color:black;
+}
